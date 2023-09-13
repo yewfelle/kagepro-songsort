@@ -161,7 +161,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ayano no Koufuku Riron",
-    img: "AyanoMP.png",
+    img: "AyanoTMP.png",
     opts: {
       series: ["album2"]
     }
