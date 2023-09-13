@@ -17,7 +17,8 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Songs without MV",
     key: "noMV",
-    tooltip: "Check this to remove all songs without an official MV."
+    tooltip: "Check this to remove all songs without an official MV.",
+    checked: true
   }
 ];
 
