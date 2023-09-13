@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Album/Category",
     key: "series",
     tooltip: "Check this to restrict by album.",
-    checked: false,
+    checked: true,
     sub: [
       { name: "Mekakucity Days", tooltip: "First Album", key: "album1" },
       { name: "Mekakucity Records", tooltip: "Second Album", key: "album2" },
