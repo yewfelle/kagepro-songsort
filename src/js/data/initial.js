@@ -17,8 +17,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Songs without MV",
     key: "noMV",
-    tooltip: "Check this to remove all songs without an official MV.",
-    checked: false
+    tooltip: "Check this to remove all songs without an official MV."
   }
 ];
 
@@ -99,7 +98,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Shinigami Record",
     img: "ShinigamiMP.png",
     opts: {
-      series: ["album1"]
+      series: ["album1"],
+      noMV: true
     }
   },
   {
