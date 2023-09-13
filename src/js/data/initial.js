@@ -11,7 +11,7 @@ dataSet[dataSetVersion].options = [
       { name: "Mekakucity Days", tooltip: "First Album", key: "album1" },
       { name: "Mekakucity Records", tooltip: "Second Album", key: "album2" },
       { name: "Mekakucity Reload", tooltip: "Third Album", key: "album3" },
-      { name: "Other", tooltip: "Other Songs", key: "other" },
+      { name: "Other", tooltip: "Other Songs", key: "other", checked: false },
     ]
   },
   {
@@ -176,7 +176,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Summertime Record",
-    img: "KagerouMP.png",
+    img: "SummerMP.png",
     opts: {
       series: ["album2"]
     }
